@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import axios from 'axios';
+import axios from './api/axios';
 
 import Header from './components/Header';
 import Landing from './components/Landing';

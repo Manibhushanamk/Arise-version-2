@@ -13,7 +13,8 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin: 'https://arise-version-2.vercel.app'
+    origin: 'https://arise-version-2.vercel.app',
+    credentials: true
 }));
 app.use(
     cookieSession({

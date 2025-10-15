@@ -50,5 +50,7 @@ const JobSearchPage = () => {
                 </div>
             )}
         </div>
+    );
+};
 
 export default JobSearchPage;

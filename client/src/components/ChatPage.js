@@ -50,5 +50,7 @@ const ChatPage = () => {
                 <button type="submit" className="btn" disabled={isLoading}>Send</button>
             </form>
         </div>
+    );
+};
 
 export default ChatPage;
